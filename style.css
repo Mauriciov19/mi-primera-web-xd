@@ -1,0 +1,70 @@
+body {
+    background-color: #21213a;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.tarjeta {
+    background-color: rgb(102, 103, 163);
+    padding: 50px;
+    width: 300px;
+    border: 2px solid #ca21a0;
+    border-radius: 15px;
+}
+
+.boton {
+    background-color: hsl(0, 0%, 0%);
+    color: hwb(118 7% 9%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton:hover {
+    background-color: hwb(118 7% 9%);
+    color: hsl(0, 0%, 0%);
+}
+
+
+h1 {
+    color: #ca21a0;
+    font-size: 36px;
+}
+
+h2 {
+    color: lightblue;
+}
+
+p {
+    font-size: 20px;
+}
+
+a:hover {
+
+    color: orange;
+}
+
+ul {
+    font-size: 22px;
+    color: lightgreen;
+}
+
+.hecha {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+#li {
+    cursor: pointer;
+}
